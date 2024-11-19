@@ -1,0 +1,142 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: #fff;
+    font-weight: bold;
+  }
+  
+  header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #6c5ce7;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .buttons a {
+    margin-left: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  .buttons .register {
+    background: #6c5ce7;
+    color: #fff;
+  }
+  
+  .buttons .sign-in {
+    border: 1px solid #333;
+    color: #333;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .hero .text {
+    max-width: 50%;
+  }
+  
+  .hero h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .hero .text a {
+    margin-right: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  .hero .register {
+    background: #6c5ce7;
+    color: #fff;
+  }
+  
+  .hero .learn-more {
+    border: 1px solid #333;
+    color: #333;
+  }
+  
+  .hero img {
+    max-width: 40%;
+  }
+  
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    nav {
+      margin-top: 10px;
+    }
+  
+    .hero {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .hero .text {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .hero img {
+      max-width: 70%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    header {
+      padding: 10px 20px;
+    }
+  
+    header .logo {
+      font-size: 20px;
+    }
+  
+    nav a {
+      font-size: 14px;
+    }
+  
+    .buttons a {
+      font-size: 14px;
+      padding: 8px 15px;
+    }
+  
+    .hero h1 {
+      font-size: 1.5em;
+    }
+  
+    .hero p {
+      font-size: 14px;
+    }
+  
+    .hero img {
+      max-width: 100%;
+    }
+  }
+  
